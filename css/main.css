@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  font-weight: 400;
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(to bottom, #af67e9, #6565e7);
+}
+
+input,
+textarea,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+/*# sourceMappingURL=main.css.map */
